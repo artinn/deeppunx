@@ -1,0 +1,2 @@
+#!/bin/bash
+env ALE_LOGIN=team_10 ALE_PASS=yzvpDK ALE_HOST=localhost ALE_PORT=17010 ./play_gpu seaquest
