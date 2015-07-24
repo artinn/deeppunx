@@ -5,7 +5,7 @@ if [ -z "$1" ]
 fi
 ENV=$1
 FRAMEWORK="alewrap"
-postfix="TEST"
+postfix="FINAL"
 game_path=$PWD"/roms/"
 env_params="useRGB=true"
 agent="NeuralQLearner"
@@ -53,4 +53,4 @@ echo $args
 
 cd dqn
 #qlua play_agent.lua $args
-../torch/bin/luajit play_agent.lua $args
+/home/ubuntu/torch/install/bin/luajit play_agent.lua $args
